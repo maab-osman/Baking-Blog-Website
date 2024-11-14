@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #F6F5F2;
+    --accent-color: #F0EBE3;
+    --pop-color: #FFEFEF;
+    --extra-pop-color: #F3D0D7;
+    --text-color: #000000;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease .40s;
+}
+
+.logo {
+    font-family: 'Playwrite GB S';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.navbar {
+     display: flex;
+     justify-content: space-around;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.navbar a:hover{
+    background: var(--accent-color);
+    color: var(--text-color);
+    box-shadow: 10px 20px 30px rgba(1, 1, 0, 0.2);
+    border-radius: 5%;
+}
+#menu-icon{
+    color: var(--bg-color);
+    font-size: 35px;
+    z-index: 1001; 
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 80px 18%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(assests/Design\ -\ Branding\ Portfolio\ Website\ in\ White\ \ Grey\ \ Black\ \ Light\ Classic\ Minimal\ Style.png);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.home-text h1{
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: var(--text-color);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 250px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+.home-text p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-right: 400px;
+    margin-bottom: 150px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.home-btn:hover{
+    background: var(--pop-color);
+    transform: scale(1.1);
+}
+header.sticky{
+    background: var(--bg-color);
+    padding: 5px 12%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.sticky .logo {
+    color: var(--text-color);
+}
+.sticky .navbar a{
+    color: var(--text-color);
+}
+.sticky .navbar a:hover{
+    background: var(--pop-color);
+    color: var(--text-color);
+    box-shadow: 10px 20px 30px rgba(26, 26, 25, 0.2);
+    border-radius: 4px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 9rem;
+}
+.container-img img{
+    display: flex;
+    justify-content: flex-start;
+    width: 200%;
+}
+.container-img img {
+    width: 110%; /* Adjust the width to cover half the screen */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers its container without distortion */
+    bottom: 100%;
+    margin-left: -10%;
+   }
+   .container-text h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--pop-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+   }
+   .container-text h3{
+    font-size: var(--h2-font);
+    font-weight: 800;
+    line-height: 1.2,;
+    margin-bottom: 25px;
+    } 
+ .container-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    color: #F5F5F5;
+    margin-bottom: 35px;
+ }
+ .container-btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: #c7bd4e;
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: ease .40s;
+ }
+ .container-btn:hover {
+    background: var(--pop-color);
+    transform: scale(1.1);
+ }
