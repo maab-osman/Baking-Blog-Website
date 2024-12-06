@@ -17,5 +17,4 @@ Baking Tips: Helpful techniques and tips to improve your baking skills, from ing
 Seasonal Specialties: Recipes for special occasions and seasonal treats.
 User Interaction: Visitors can engage with the blog, try out recipes, and share their baking experiences.
 Video Tutorials: Embedded YouTube video tutorials for select recipes, featuring a lazy load functionality to optimize performance.
-Installation
-To run the project locally:
+
