@@ -9,12 +9,19 @@ The objective of the site is to provide a creative and interactive space where u
 Target Group:
 
 Primary Audience: Beginner and advanced home bakers.
+
 Interests: Trying new recipes, mastering baking techniques, and experimenting with ingredients.
+
 Demographics: Ages 18-45, primarily home bakers or baking enthusiasts looking for accessible and creative recipes.
 Features
+
 Recipe Pages: A collection of delicious and easy-to-follow recipes for cakes, cookies, bread, pastries, and more.
+
 Baking Tips: Helpful techniques and tips to improve your baking skills, from ingredient substitutions to perfecting pastry dough.
+
 Seasonal Specialties: Recipes for special occasions and seasonal treats.
+
 User Interaction: Visitors can engage with the blog, try out recipes, and share their baking experiences.
+
 Video Tutorials: Embedded YouTube video tutorials for select recipes, featuring a lazy load functionality to optimize performance.
 
