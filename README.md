@@ -8,8 +8,6 @@ Welcome to my **Baking Blog**! This website is dedicated to all things baking â€
 - [Target Audience](#target-audience)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ðŸ“– About
 This site is created to showcase my passion for baking. It features recipes for:
