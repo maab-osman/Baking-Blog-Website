@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crave the Bake </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favi-con.ico" type="image/x-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- top nav  -->
+        <div class="topnav">
+            <div class="container flex">
+                <div class="navicons flex">
+                    <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="/" class="srbtn">Request Recipe <i class="fa-solid fa-plus"></i></a>
+            </div>
+        </div>
+    <!-- nav  -->
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/mylogo.png" alt="Crave The Bake">
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="contactUs.html" class="nav-link"> Contact Us </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- end of nav -->
+    <main class="page">
+     <div class="contact-container">
+          <article class="contact-info">
+            <h3>Want To Get In Touch?</h3>
+            <p>
+              If you’re craving sweet treats or looking for baking tips, you’re in the right place!</p>
+            <p>From comforting cakes to unique cookies, I share my baking journey and recipes to inspire you to get creative in the kitchen.</p>
+            <p>Let’s bake something delicious together!</p>
+          </article>
+          <div>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label for="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input">
+              </div>
+              <div class="form-row">
+                <label for="email" class="form-label">your email</label>
+                <input type="text" name="email" id="email" class="form-input">
+              </div>
+              <div class="form-row">
+                <label for="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </div>
+        </div>
+     <!-- featured recipes -->
+      <section class="featured-recipes">
+        <h4 class="featured-title">Baking Favorites You’ll Love to Try!</h4>
+          <!-- end of tag container -->
+          <!-- recipes list -->
+          <div class="recipes-list">
+            <!-- single recipe -->
+            <a href="recipes.html" class="recipe">
+              <img src="./assets/cookies.jpeg" class="img recipe-img" alt="Chocolate Chip Cookies">
+              <h5>Chocolate Chip Cookies</h5>
+              <p>Prep : 20min | Cook : 30min</p>
+            </a>
+            <!-- end of single recipe -->
+            <!-- single recipe -->
+            <a href="recipes.html" class="recipe">
+              <img src="./assets/red-velvet-final2.jpg" class="img recipe-img" alt="Red Velvet Cake">
+              <h5>Red Velvet Cake</h5>
+              <p>Prep : 30min | Cook : 1hr</p>
+            </a>
+            <!-- end of single recipe -->
+            <!-- single recipe -->
+            <a href="recipes.html" class="recipe">
+              <img src="./assets/nobakee.jpeg" class="img recipe-img" alt="Fruit Pie">
+              <h5>No-Bake easy Pie</h5>
+              <p>Prep : 20min | Cook : 45min</p>
+            </a>
+          </div>
+      </section>
+    <!-- iframe-->
+      <section class="music-playlist">
+        <h5>Enjoy this handpicked playlist while you whip up something sweet in the kitchen!</h5>
+        <iframe src="https://open.spotify.com/embed/playlist/3xRcOnWkcD2OhnXp8LSuck?utm_source=generator" width="100%"
+         height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+         encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </section>
+    </main>
+    <!-- footer and Table-->
+    <footer class="page-footer">
+      <table class="footer-table">
+        <tr>
+          <td><strong>Contact</strong></td>
+          <td>Email: example@example.com</td>
+        </tr>
+        <tr>
+          <td><strong>Phone</strong></td>
+          <td>(123) 456-7890</td>
+        </tr>
+        <tr>
+          <td><strong>Social Media</strong></td>
+          <td>
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+          </td>
+        </tr>
+      </table>
+      <p>&copy; Crave The Bake, All Rights Reserved.</p>
+    </footer>
+      <script src="./script.js"></script>
+  </body>
+  </html>

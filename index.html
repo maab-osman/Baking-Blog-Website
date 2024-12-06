@@ -1,62 +1,170 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
-    
-</head>
-<body>
-<!--The Header-->
-<header class="sticky">
-    <a href="#" class="logo">Crave the Bake</a>
-    <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </header>
-
-<!--The HomePage-->
-
-     <section class="home" id="home">
-        <div class="home-text">
-            <h1>Bake Your Heart Out</h1>
-            <p>Bringing the joy of homemade baking into your kitchen with easy-to-follow recipes.</p>
-            <a href="#" class="home-btn"> Explore Now.</a>
-        </div>
-    </section>
-    <!--container-->
-    <section class="container">
-        <div class="container-img">
-            <img src="assests/pexels-photo-4823096.webp" alt="photo of german castle">
-        </div>
-        <div class = "container-text">
-            <h5>Discover the Time Capsule</h5>
-            <h3> Step into a journey through time.</h3>
-            <p> Imagine strolling through ancient cities, reliving the excitement of present-day travels, or dreaming about the future landscapes that await. With each era, the world reveals itself in new colors, sounds, and stories. Use the Travel Time Capsule to explore places across different time periods, connecting memories, experiences, and aspirations as you move through time and space.</p>
-                 <a href="#" class="container-btn"> Read more. </a>
-        </div>
-            <div class="row-items"> 
-                <div class="container-box">
-                    <div class="container-img">
-                    
-                    </div>
+    <title> Crave the Bake </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favi-con.ico" type="image/x-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- top nav  -->
+        <div class="topnav">
+            <div class="container flex">
+                <div class="navicons flex">
+                    <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
+                <a href="/" class="srbtn">Request Recipe <i class="fa-solid fa-plus"></i></a>
             </div>
+        </div>
+  <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/mylogo.png" alt="Crave The Bake">
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="contactUs.html" class="nav-link"> Contact Us </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Anything you Crave</h1>
+            <h4>baking into your kitchen with easy-to-follow recipes</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h2 class="recipestitle">Latest Recipes</h2>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="recipes.html" class="recipe">
+            <img src="./assets/cookies.jpeg" class="img recipe-img" alt="Chocolate Chip Cookies">
+            <h5>Chocolate Chip Cookies</h5>
+            <p>Prep : 20min | Cook : 30min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="recipes.html" class="recipe">
+            <img src="./assets/red-velvet-final2.jpg" class="img recipe-img" alt="Red Velvet Cake">
+            <h5>Red Velvet Cake</h5>
+            <p>Prep : 30min | Cook : 1hr</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="recipes.html" class="recipe">
+            <img src="./assets/nobakee.jpeg" class="img recipe-img" alt="Fruit Pie">
+            <h5>No-Bake easy Pie</h5>
+            <p>Prep : 20min | Cook : 45min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
+    <!-- end of main -->
+    <section class="video-section">
+      <h2>Watch My Latest Recipe Tutorial</h2>
+      <iframe class="recipe-video" width="560" height="315" src="https://www.youtube.com/embed/7THVqkb8gx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <!--link to JS-->
-<script type="text/javascript" src="script.js"></script>
-    </body>
+    <section class="recipe-categories">
+      <h2>Explore Categories</h2>
+      <div class="categories-container">
+        <!-- Category 1 -->
+        <div class="category">
+          <img src="./assets/cookie-icon.png" alt="Cookies Icon" class="category-icon">
+          <h3>Cookies</h3>
+          <p>Discover crispy, chewy, and chocolatey treats.</p>
+        </div>
+        <!-- Category 2 -->
+        <div class="category">
+          <img src="./assets/cake-icon.png" alt="Cakes Icon" class="category-icon">
+          <h3>Cakes</h3>
+          <p>Indulge in the sweetness of homemade cakes.</p>
+        </div>
+        <!-- Category 3 -->
+        <div class="category">
+          <img src="./assets/breakfast-icon.png" alt="Breakfast Icon" class="category-icon">
+          <h3>Breakfast</h3>
+          <p>Start your day with wholesome recipes.</p>
+        </div>
+        <!-- Category 4 -->
+        <div class="category">
+          <img src="./assets/pie-icon.png" alt="Pies Icon" class="category-icon">
+          <h3>Pies</h3>
+          <p>Enjoy both savory and sweet pies for any occasion.</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <h2>What Our Users Say</h2>
+      <div class="testimonials-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial">
+          <p>"The recipes are so easy to follow, and the results are always delicious!"</p>
+          <cite>- Sarah L.</cite>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+          <p>"I baked the Red Velvet Cake for my family, and they loved it. Thank you!"</p>
+          <cite>- Michael T.</cite>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+          <p>"This website made me fall in love with baking all over again!"</p>
+          <cite>- Amina R.</cite>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- footer Table-->
+    <footer class="page-footer">
+      <table class="footer-table">
+        <tr>
+          <td><strong>Contact</strong></td>
+          <td>Email: example@example.com</td>
+        </tr>
+        <tr>
+          <td><strong>Phone</strong></td>
+          <td>(123) 456-7890</td>
+        </tr>
+        <tr>
+          <td><strong>Social Media</strong></td>
+          <td>
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+          </td>
+        </tr>
+      </table>
+      <p>&copy; Crave The Bake, All Rights Reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
