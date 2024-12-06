@@ -500,7 +500,7 @@ Footer Table
 }
   /*
 =============== 
-Hero
+Homepage Hero
 ===============
 */
 
@@ -508,7 +508,7 @@ Hero
     height: 20rem;
     position: relative;
     margin-bottom: 2rem;
-    background: url('./assets/mainHero4.jpeg') center/cover no-repeat;
+    background: url('./assets/newnewhero.webp') center/cover no-repeat;
     border-radius: var(--borderRadius);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
   }
