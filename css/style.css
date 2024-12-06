@@ -453,7 +453,7 @@ Footer Table
 */
 
 .page-footer {
-  background-image: url('assets/finalcustomFooter.webp');
+  background-image: url('../assets/finalcustomFooter.webp');
   background-size: cover;
   background-position: center center;
   display: flex; 
@@ -508,7 +508,7 @@ Homepage Hero
     height: 20rem;
     position: relative;
     margin-bottom: 2rem;
-    background: url('./assets/newnewhero.webp') center/cover no-repeat;
+    background: url('../assets/newnewhero.webp') center/cover no-repeat;
     border-radius: var(--borderRadius);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
   }
