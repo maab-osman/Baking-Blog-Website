@@ -25,6 +25,8 @@
                 <a href="/" class="srbtn">Request Recipe <i class="fa-solid fa-plus"></i></a>
             </div>
         </div>
+    <!-- end of top nav  -->
+    <!-- main nav  -->
   <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
@@ -42,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <!-- end of nav -->
+    <!-- end of main nav -->
     <!-- main -->
     <main class="page">
       <!-- header -->
@@ -72,14 +74,14 @@
           <!-- end of single recipe -->
           <!-- single recipe -->
           <a href="recipes.html" class="recipe">
-            <img src="./assets/red-velvet-final2.jpg" class="img recipe-img" alt="Red Velvet Cake">
+            <img src="./assets/red-velvet-final2.webp" class="img recipe-img" alt="Red Velvet Cake">
             <h5>Red Velvet Cake</h5>
             <p>Prep : 30min | Cook : 1hr</p>
           </a>
           <!-- end of single recipe -->
           <!-- single recipe -->
           <a href="recipes.html" class="recipe">
-            <img src="./assets/nobakee.jpeg" class="img recipe-img" alt="Fruit Pie">
+            <img src="./assets/nobakee.webp" class="img recipe-img" alt="Fruit Pie">
             <h5>No-Bake easy Pie</h5>
             <p>Prep : 20min | Cook : 45min</p>
           </a>
@@ -89,10 +91,6 @@
       </section>
     </main>
     <!-- end of main -->
-    <section class="video-section">
-      <h2>Watch My Latest Recipe Tutorial</h2>
-      <iframe class="recipe-video" width="560" height="315" src="https://www.youtube.com/embed/7THVqkb8gx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
     <section class="recipe-categories">
       <h2>Explore Categories</h2>
       <div class="categories-container">
@@ -122,6 +120,19 @@
         </div>
       </div>
     </section>
+     <!-- embedded video  -->
+     <div class="video-container">
+      <h2>Watch My Latest Recipe Tutorial</h2>
+      <img src="https://img.youtube.com/vi/7THVqkb8gx4/hqdefault.jpg" alt="YouTube Video" class="video-thumbnail" />
+      <button class="play-button">Play Video</button>
+  </div>
+  
+  <!-- Hidden Iframe (only loads when play button is clicked) -->
+  <div class="video-embed" style="display:none;">
+      <iframe id="youtube-embed" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <!-- End of embedded video  -->
+
     <section class="testimonials">
       <h2>What Our Users Say</h2>
       <div class="testimonials-container">
@@ -165,6 +176,6 @@
       </table>
       <p>&copy; Crave The Bake, All Rights Reserved.</p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

@@ -22,3 +22,18 @@ recipeCards.forEach(card => {
     card.classList.toggle('expanded');
   });
 });
+const playButton = document.querySelector('.play-button');
+const videoEmbed = document.querySelector('.video-embed');
+const youtubeEmbed = document.querySelector('#youtube-embed');
+
+playButton.addEventListener('click', function() {
+    // Show iframe when play button is clicked
+    videoEmbed.style.display = 'block';
+    
+    // Set the YouTube embed src dynamically to load the video
+    youtubeEmbed.src = "https://www.youtube.com/embed/7THVqkb8gx4?autoplay=1";
+    
+    // Hide the thumbnail and play button
+    document.querySelector('.video-thumbnail').style.display = 'none';
+    playButton.style.display = 'none';
+});
