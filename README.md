@@ -6,6 +6,8 @@ Welcome to my **Baking Blog Website**! This project is part of my **Introduction
 
 This website is designed to share baking recipes, tips, and techniques for both **beginner** and **advanced bakers**. It features three pages that offer an inviting, easy-to-use experience, optimized for mobile devices.
 
+![Demo Screenshot of Homepage](assets/final-website.png)
+
 ### 🎯 Purpose
 - To practice creating a responsive, mobile-first website.
 - To share a variety of baking recipes, tips, and techniques with a wide audience.
