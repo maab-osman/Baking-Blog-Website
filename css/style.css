@@ -870,13 +870,13 @@ Video Section
 /* Video Container */
 .video-container {
   position: relative;
-  width: 100%; /* Use full width of the parent container */
-  max-width: 600px; /* Maximum width to prevent it from growing too large */
+  width: 100%; 
+  max-width: 600px; 
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  padding: 0 10px; /* Add padding to prevent overflow */
-  box-sizing: border-box; /* Ensures padding doesn't affect the width calculation */
+  padding: 0 10px; 
+  box-sizing: border-box; 
 }
 
 /* Video Heading */
@@ -889,8 +889,8 @@ Video Section
 
 /* Thumbnail Image */
 .video-thumbnail {
-  width: 100%; /* Ensure the thumbnail takes full width */
-  max-width: 100%; /* Ensures it's responsive */
+  width: 100%; 
+  max-width: 100%; 
   cursor: pointer;
 }
 
@@ -924,11 +924,11 @@ Video Section
 /* Mobile View Adjustments */
 @media (max-width: 600px) {
   .video-thumbnail {
-    width: 100%; /* Ensure it takes up 100% width on mobile */
+    width: 100%; 
   }
   
   .play-button {
-    font-size: 16px; /* Smaller button size for mobile */
+    font-size: 16px; 
   }
 }
 
