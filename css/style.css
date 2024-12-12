@@ -589,15 +589,15 @@ Recipes
   margin-bottom: 0;
   margin-top: 1.5rem;
   line-height: 1;
-  font-weight: 700;
-  color: var(--grey-600);
+  font-weight: 600;
+  color: var(--text-color);
 }
 
 .recipe p {
   margin-bottom: 2rem;
   font-family: var(--bodyFont);
   line-height: 1;
-  color: var(--grey-500);
+  color: var(--text-color);
   margin-top: 0.5rem;
   letter-spacing: var(--letterSpacing);
 }
@@ -628,7 +628,8 @@ Recipes
     height: 15rem; 
   }
 }
- 
+
+/* Recipes Page Cards */
 .recipe-card {
   border-radius: 10px;
   overflow: hidden;
@@ -674,17 +675,19 @@ Recipes
   .recipe-card.expanded .recipe-details {
     display: block; 
   }
-  
+  /* Small Screens */
   @media screen and (min-width: 576px) {
     .recipe-img {
       height: 15rem; 
     }
   }
+  /* Medium Screens */
   @media screen and (min-width: 768px) {
     .recipes-grid {
       grid-template-columns: repeat(2, 1fr); 
     }
   }
+ /* Large Screens */
   @media screen and (min-width: 992px) {
     .recipes-grid {
       grid-template-columns: repeat(3, 1fr); 
@@ -978,13 +981,13 @@ Categories Section
 .category h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #555;
+  color: var(--text-color);
 }
 
 .category p {
   font-size: 1rem;
   font-family: var(--bodyFont);
-  color: #777;
+  color: var(--text-color);
 }
 /*
 =============== 
