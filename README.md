@@ -2,22 +2,22 @@
 
 Welcome to my **Baking Blog Website**! This project is part of my **Introduction to Digital Services Course**, where I created a **3-page mobile-first, responsive website** all about baking.
 
-## 📄 Project Overview
+##  Project Overview
 
 This website is designed to share baking recipes, tips, and techniques for both **beginner** and **advanced bakers**. It features three pages that offer an inviting, easy-to-use experience, optimized for mobile devices.
 
-### 🎯 Purpose
+###  Purpose
 - To practice creating a responsive, mobile-first website.
 - To share a variety of baking recipes, tips, and techniques with a wide audience.
 
-### 🌍 Target Audience
+###  Target Audience
 - **Home bakers** looking for new recipes to try.
 - **Baking enthusiasts** who want to explore new techniques.
 - **Beginner bakers** seeking easy-to-follow recipes.
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **HTML**: Structure and content of the website.
 - **CSS**: Styling and mobile-first responsive design.
@@ -26,7 +26,7 @@ This website is designed to share baking recipes, tips, and techniques for both 
 
 ---
 
-## 📱 Pages in the Project
+##  Pages in the Project
 
 1. **Home Page** – A welcoming page that features a collection of baking recipes and tips.
 2. **Recipe Page** – A dedicated page where users can explore detailed recipes and baking techniques.
@@ -34,7 +34,7 @@ This website is designed to share baking recipes, tips, and techniques for both 
 
 ---
 
-## 🚀 How to View the Website
+##  How to View the Website
 
 You can view the live version of the website here:  
 [**Live Demo**](https://maab-osman.github.io/Baking-Blog-Website/index.html)
@@ -58,7 +58,7 @@ To run this project on your local machine:
 
 ---
 
-## 📸 Features
+##  Features
 
 - **Mobile-first design**: Optimized to look great on mobile devices first, then adapts to larger screens.
 - **Responsive layout**: The design adjusts to different screen sizes for easy viewing on any device.
@@ -67,7 +67,7 @@ To run this project on your local machine:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 If you'd like to contribute or suggest changes:
 1. Fork the repository.
@@ -76,13 +76,13 @@ If you'd like to contribute or suggest changes:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 💡 Key Learning Outcomes
+##  Key Learning Outcomes
 
 - Created a mobile-first responsive website.
 - Gained hands-on experience with HTML, CSS, and JavaScript.
